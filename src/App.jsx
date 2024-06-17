@@ -1,5 +1,5 @@
 import { BrowserRouter } from 'react-router-dom';
-import { Navbar, Hero } from './components';
+import { About, Contact, Experience, Feedbacks, Hero, Navbar, Tech, Works, StarsCanvas } from './components';
 import './index.css';
 
 const App = () => {
@@ -9,6 +9,15 @@ const App = () => {
         <div className="bg-hero-pattern bg-cover bg-no-repeat bf-center">
           <Navbar />
           <Hero />
+        </div>
+        <About />
+        <Experience />
+        <Tech />
+        <Works />
+        <Feedbacks />
+        <div className="relative z-0">
+          <Contact />
+          <StarsCanvas />
         </div>
       </div>
     </BrowserRouter>
