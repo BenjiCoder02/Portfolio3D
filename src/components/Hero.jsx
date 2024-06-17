@@ -16,7 +16,7 @@ const Hero = () => {
             Hi, I&apos;m <span className="text-[#915eff]">Ben</span></h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
             I develop user interfaces <br className="sm:block hidden" />
-            and application programming interfaces. In other words, I&apos;m a
+            and application programming interfaces. I&apos;m a
             full stack developer
           </p>
         </div>
