@@ -1,7 +1,7 @@
 import React from 'react'
 import { motion } from 'framer-motion'
 import { styles } from '../style'
-import { services } from '../constants'
+import { services } from '../constants/index';
 import { fadeIn, textVariant } from '../utils/motion';
 import { Tilt } from 'react-tilt';
 import { SectionWrapper } from '../hoc/SectionWrapper';

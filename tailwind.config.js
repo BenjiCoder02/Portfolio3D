@@ -1,4 +1,8 @@
 /** @type {import('tailwindcss').Config} */
+<<<<<<< Updated upstream
+=======
+
+>>>>>>> Stashed changes
 module.exports = {
   content: ["./src/**/*.{js,jsx}"],
   mode: "jit",
