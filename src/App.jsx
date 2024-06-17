@@ -14,11 +14,10 @@ const App = () => {
         <Experience />
         <Tech />
         <Works />
-        <Feedbacks />
         <div className="relative z-0">
           <Contact />
-          <StarsCanvas />
         </div>
+        <footer className='text-white w-full text-center mb-5'>2024 Benjamin Koshy</footer>
       </div>
     </BrowserRouter>
   )

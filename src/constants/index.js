@@ -16,10 +16,13 @@ import {
   docker,
   starbucks,
   tesla,
-  carrent,
+  weatherapp,
   jobit,
   tripguide,
   threejs,
+  crypto,
+  twitter,
+  blogapp,
 } from "../assets";
 
 export const navLinks = [
@@ -163,7 +166,7 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "DCentralized Crypto",
     description:
       "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
     tags: [
@@ -172,7 +175,7 @@ const projects = [
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "crypto-api",
         color: "green-text-gradient",
       },
       {
@@ -180,11 +183,11 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: crypto,
+    sourceCodeLink: "https://benjicoder02.github.io/Decentralized_crypto/",
   },
   {
-    name: "Job IT",
+    name: "Blog App",
     description:
       "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
     tags: [
@@ -201,20 +204,20 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: blogapp,
+    sourceCodeLink: "https://bk-daily-journal-blog.herokuapp.com",
   },
   {
-    name: "Trip Guide",
+    name: "Twitter page",
     description:
       "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
     tags: [
       {
-        name: "nextjs",
+        name: "React.js",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "Firebase",
         color: "green-text-gradient",
       },
       {
@@ -222,8 +225,8 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: twitter,
+    sourceCodeLink: "https://react-twitter-clone-944e5.web.app",
   },
 ];
 
