@@ -33,8 +33,10 @@ import tripguide from "./tripguide.png";
 import weatherapp from './weatherapp.png'
 import twitter from './twitter.png';
 import blogapp from './blogapp.png';
+import bracket from './mine-1-bracket.jpg',
 
 export {
+  bracket,
   blogapp,
   twitter,
   weatherapp,

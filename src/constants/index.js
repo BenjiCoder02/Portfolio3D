@@ -23,6 +23,7 @@ import {
   crypto,
   twitter,
   blogapp,
+  bracket,
 } from "../assets";
 
 export const navLinks = [
@@ -168,7 +169,7 @@ const projects = [
   {
     name: "DCentralized Crypto",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "A platform to view top crypto coins on the market.",
     tags: [
       {
         name: "react",
@@ -189,7 +190,7 @@ const projects = [
   {
     name: "Blog App",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "A simple blog application that lets user add, update and delete entries.",
     tags: [
       {
         name: "react",
@@ -210,7 +211,7 @@ const projects = [
   {
     name: "Twitter page",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "A twitter page clone that lets you add a new post along with an image link which is stored to Firebase database",
     tags: [
       {
         name: "React.js",
@@ -227,6 +228,31 @@ const projects = [
     ],
     image: twitter,
     sourceCodeLink: "https://react-twitter-clone-944e5.web.app",
+  },
+  {
+    name: "2024 NCAA Bracket Contest",
+    description:
+      "The most exciting project I worked on at Rypl.com. It was built for the 2024 NCAA March Madness basketball contest. Users could make their predictions for the whole tournament when the games were announced. Then as games proceeded the picks would update in realtime and show you whether the pick was correct or wrong. I also built a leaderboard which updated in realtime to show which users were leading and let users view their current position.",
+    tags: [
+      {
+        name: "React.js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "MySQL",
+        color: "green-text-gradient",
+      },
+      {
+        name: 'Springboot',
+        color: 'blue-text-gradient'
+      },
+      {
+        name: "css",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: bracket,
+    sourceCodeLink: "#",
   },
 ];
 
