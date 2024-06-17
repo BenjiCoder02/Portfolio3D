@@ -4,6 +4,7 @@ import { styles } from '../style'
 import { services } from '../constants'
 import { fadeIn, textVariant } from '../utils/motion';
 import { Tilt } from 'react-tilt';
+import { SectionWrapper } from '../hoc/SectionWrapper';
 
 const ServiceCard = ({ index, title, icon }) => {
   return (
@@ -40,7 +41,7 @@ const About = () => {
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
         I'm a skilled developer with experience in Typescript and Javascript,
-        with experience in frameworks like React, Springboot, Node.js and Three.js.
+        with expertise in frameworks like React, Springboot, Node.js and Three.js.
         I'm a quick learner and have collaborated with teams in an Agile environment
         to create efficient, scalable and user friendly solutions that solve real world
         problems.
@@ -55,4 +56,4 @@ const About = () => {
   )
 }
 
-export default About;
+export default SectionWrapper(About, 'about');
