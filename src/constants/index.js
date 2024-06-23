@@ -24,6 +24,7 @@ import {
   twitter,
   blogapp,
   bracket,
+  rypl,
 } from "../assets";
 
 export const navLinks = [
@@ -115,7 +116,7 @@ const experiences = [
   {
     title: "Full Stack Developer",
     company_name: "Rypl",
-    icon: starbucks,
+    icon: rypl,
     iconBg: "#383E56",
     date: "August 2021 - Current",
     points: [
@@ -128,7 +129,7 @@ const experiences = [
   {
     title: "React Native Developer",
     company_name: "Freelance",
-    icon: tesla,
+    icon: starbucks,
     iconBg: "#E6DEDD",
     date: "September 2021 - Feb 2022",
     points: [
