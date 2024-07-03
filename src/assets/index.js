@@ -35,8 +35,10 @@ import weatherapp from './weatherapp.png'
 import twitter from './twitter.png';
 import blogapp from './blogapp.png';
 import bracket from './mine-1-bracket.jpg';
+import NextJsApp from './NextJsApp.png';
 
 export {
+  NextJsApp,
   bracket,
   blogapp,
   twitter,

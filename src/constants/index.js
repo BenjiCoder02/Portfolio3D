@@ -15,16 +15,13 @@ import {
   git,
   docker,
   starbucks,
-  tesla,
-  weatherapp,
-  jobit,
-  tripguide,
   threejs,
   crypto,
   twitter,
   blogapp,
   bracket,
   rypl,
+  NextJsApp
 } from "../assets";
 
 export const navLinks = [
@@ -167,6 +164,36 @@ const testimonials = [
 ];
 
 const projects = [
+
+  {
+    name: "Brandify",
+    description:
+      "A blazing fast Ecommerce site built with Next.js and Stripe payment",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "stripe-api",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Next.js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "redux",
+        color: "green-text-gradient",
+      },
+    ],
+    image: NextJsApp,
+    sourceCodeLink: "https://next-js-ecommerce-bi6bngsuw-benjicoder02s-projects.vercel.app",
+  },
   {
     name: "DCentralized Crypto",
     description:
